@@ -1,0 +1,76 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position:absolute;
+    background-color:rgb(46, 46, 46);
+    align-content: center;
+    align-items: center;
+}
+
+#menu {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(57, 64, 73);
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    transform: translate(-50%, 0);
+    margin-left: auto; 
+    margin-right: auto; 
+    flex-direction: row;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+#taskbar {
+    position:absolute;
+    top: 95%;
+    background-color: rgba(29, 29, 29, 0.726);
+    width: 100%;
+    height: 5%;
+    border-radius: 15px 15px 0px 0px;
+    align-items: center;
+    align-content: center;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    position: relative;
+    top: 10%;
+}
+
+.windowheads {
+    position: absolute;
+    width: 40%;
+    height: 5px;
+    background-color: blanchedalmond;
+    position:absolute;
+    z-index: 9;
+    border-radius: 10px 10px 0px 0px;
+}
+.windows {
+    width: 100.01%;
+    border: none;
+    position: absolute;
+    top: 100%;
+    resize: both;
+    z-index: 100000;
+}
+/*#icons {
+    margin-top: 5%;
+    width: max-content;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 10% [col-start]);
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow:hidden;
+}*/
